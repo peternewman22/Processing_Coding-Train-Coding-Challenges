@@ -1,0 +1,26 @@
+/* 
+Physics Engine: apply gravity force to a particle class
+A FireworkShow object contains a bunch of fireworks.
+Fireworks are made up of particles.
+
+First, I just want to get ONE firework happening. 
+THEN I can work on gettings others
+*/
+
+ArrayList<Firework> fireworkShow;
+
+
+void settings(){
+  size(640, 360);
+}
+
+void setup(){
+  stroke(255);
+  strokeWeight(3);
+  fireworkShow = new ArrayList<Firework>();
+  
+}
+
+void draw(){
+  background(0);
+}
